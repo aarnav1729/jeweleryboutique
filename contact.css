@@ -1,0 +1,169 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+#myVideo {
+    object-fit: cover;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw; 
+    height: 100vh;
+    z-index: -1;
+}
+
+.viewport-header {
+    position: relative;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    top: 0;
+}
+
+.container {
+    display: inline-block;
+    cursor: pointer;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.white-icon {
+    color: white;
+    fill: white;
+    stroke: white;
+    height: 48px;
+    width: 48px;
+    margin: 2rem;
+    cursor: pointer;
+}
+
+.menu {
+    position: absolute;
+    z-index: 100;
+    width:fit-content;
+    min-width: 30vw;
+    height: 100vh;
+    color:rgb(255, 255, 255);
+    background: rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(0px);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+
+}
+
+.hidden {
+    display: none;
+}
+
+#hamburger-icon {
+    z-index: 1000;
+}
+
+.social {
+    display: flex;
+    flex-direction: column;
+}
+
+.instagram {
+    width: 100px;
+    padding: 20px;
+    border-radius: 50%;
+    margin: 50px 2px;
+    border-radius: 50%;
+}
+
+.instagram:hover {
+    -ms-transform: scale(1.5);
+    -webkit-transform: scale(1.5);
+    transform: scale(1.5);
+}
+
+.gmail {
+    width: 100px;
+    padding: 20px;
+    border-radius: 50%;
+    margin: 50px 2px;
+    border-radius: 50%;
+}
+
+.gmail:hover {
+    -ms-transform: scale(1.5);
+    -webkit-transform: scale(1.5);
+    transform: scale(1.5);
+}
+
+.facebook {
+    width: 100px;
+    padding: 20px;
+    border-radius: 50%;
+    margin: 50px 2px;
+    border-radius: 50%;
+}
+
+.facebook:hover {
+    -ms-transform: scale(1.5);
+    -webkit-transform: scale(1.5);
+    transform: scale(1.5);
+}
+
+.whatsapp {
+    width: 100px;
+    padding: 20px;
+    border-radius: 50%;
+    margin: 50px 2px;
+    border-radius: 50%;
+}
+
+.whatsapp:hover {
+    -ms-transform: scale(1.5);
+    -webkit-transform: scale(1.5);
+    transform: scale(1.5);
+}
+
+.phone {
+    width: 100px;
+    padding: 20px;
+    border-radius: 50%;
+    margin: 50px 2px;
+    border-radius: 50%;
+}
+
+.phone:hover {
+    -ms-transform: scale(1.5);
+    -webkit-transform: scale(1.5);
+    transform: scale(1.5);
+}
+
+.messenger {
+    width: 100px;
+    padding: 20px;
+    border-radius: 50%;
+    margin: 50px 2px;
+    border-radius: 50%;
+}
+
+.messenger:hover {
+    -ms-transform: scale(1.5);
+    -webkit-transform: scale(1.5);
+    transform: scale(1.5);
+}
+
+.snapchat {
+    width: 100px;
+    padding: 20px;
+    border-radius: 50%;
+    margin: 50px 2px;
+    border-radius: 50%;
+}
+
+.snapchat:hover {
+    -ms-transform: scale(1.5);
+    -webkit-transform: scale(1.5);
+    transform: scale(1.5);
+}
