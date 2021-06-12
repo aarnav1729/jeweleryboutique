@@ -1,0 +1,106 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+#myVideo {
+    object-fit: cover;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw; 
+    height: 100vh;
+    z-index: -1;
+}
+
+.viewport-header {
+    position: relative;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    top: 0;
+}
+
+.container {
+    display: inline-block;
+    cursor: pointer;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.white-icon {
+    color: white;
+    fill: white;
+    stroke: white;
+    height: 48px;
+    width: 48px;
+    margin: 2rem;
+    cursor: pointer;
+}
+
+.menu {
+    position: fixed;
+    z-index: 100;
+    width:fit-content;
+    min-width: 30vw;
+    height: 100vh;
+    color:rgb(255, 255, 255);
+    background: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(4px);
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+
+}
+
+.hidden {
+    display: none;
+}
+
+#hamburger-icon {
+    z-index: 1000;
+}
+
+.flex-container {
+    flex-grow: 1;
+    margin: 10px;
+}
+
+.card-container {
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; 
+}
+
+.card {
+    margin: 10px;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 4px;
+    overflow: hidden;
+    width: 240px;
+    text-align: center;
+    transition: transform .2s;
+}
+
+.card-image {
+    height: 250px;
+    width: 420px;
+    object-fit: cover;
+    transition: transform .2s;
+}
+
+.card:hover {
+    -ms-transform: scale(1.5);
+    -webkit-transform: scale(1.5);
+    transform: scale(1.5);
+}
+
+.card-title {
+    font-size: x-large;
+}

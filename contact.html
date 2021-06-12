@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width" initial scale=1.0>
+    <link rel="stylesheet" type="text/CSS" href="/css/contact.css">
+    <title>Sparks N Sizzles</title>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
+</head>
+
+<body>
+    <video playsinline autoplay muted loop id="myVideo">
+        <source src="/graphic/nebula.mp4" type="video/mp4">
+        Your browser does not support HTML5 video.
+    </video>
+
+    <div id="hamburger-icon" class="container">
+        <i data-feather="menu" class="white-icon"></i>
+    </div>
+
+    <div id="hamburger-menu" class="menu hidden p-6">
+        <div class="flex items-center justify=-between">
+            <h1 class="text-4xl">Welcome!</h1>
+            <div id="hamburger-close">
+                <i data-feather="x-circle"></i>
+            </div>
+        </div>
+        <div>
+            <h2 class="text-3xl mb-2">Products</h2>
+            <ul>
+                <li><a href="webdev.html">Home</a></li>
+                <li><a href="ear.html">Earrings</a></li>
+                <li><a href="neck.html">Neckpieces</a></li>
+                <li><a href="brace.html">Bracelets</a></li>
+                <li><a href="rings.html">Rings</a></li>
+                <li><a href="hair.html">Hair Accessories</a></li>
+                <li><a href="night.html">Nightwear</a></li>
+                <li><a href="belts.html">Belts</a></li>
+            </ul>
+        </div>
+        <div>
+            <h2 class="text-3xl mb-2">Information</h2>
+            <ul>
+                <li><a href="contact.html">Contact Us!</a></li>
+                <li><a href="review.html">Write A Review</a></li>
+            </ul>
+        </div>
+    </div>
+    
+    <script>
+        feather.replace();
+        const hamburgerIcon = document.getElementById("hamburger-icon");
+        const hamburgerMenu = document.getElementById("hamburger-menu");
+        const hamburgerClose = document.getElementById("hamburger-close");
+    
+        hamburgerIcon.addEventListener("click", () => {
+            hamburgerIcon.classList.add("hidden");
+            hamburgerMenu.classList.remove("hidden");
+        });
+        hamburgerClose.addEventListener("click", () => {
+            hamburgerIcon.classList.remove("hidden");
+            hamburgerMenu.classList.add("hidden");
+        });
+    </script>
+
+    <header class="viewport-header text-3xl">
+        <div class="flex flex-col text-yellow-100 hover:text-blue-100">
+        <h1 class="pb-4 border-b-2 border-blue-100 hover:border-yellow-100">
+            Sparks N Sizzles
+        </h1>
+        <h1 class="my-4">
+            The Art of Gems N Jewels: Contact Us!
+        </h1>
+        </div>
+    </header>
+    <div class = "social">
+        <div class="flex flex-row justify-center">
+
+            <div class="phone">
+                <div class="bg-transparent">
+                    <a target="_blank" href="tel:+919849315550">
+                        <img src="/graphic/call.svg">
+                    </a>
+                </div>
+            </div>
+
+            <div class="instagram">
+                <div class="bg-transparent">
+                    <a target="_blank" href="https://www.instagram.com/sparksnsizzles__/">
+                        <img src="/graphic/ig.svg">
+                    </a>
+                </div>
+            </div>
+
+            <div class="facebook">
+                <div class="bg-transparent">
+                    <a target="_blank" href="https://www.facebook.com/sparksnsizzles.sizzles">
+                        <img src="/graphic/fa.svg">
+                    </a>
+                </div>
+            </div>
+
+            <div class="whatsapp">
+                <div class="bg-transparent">
+                    <a target="_blank" href="https://wa.me/919849315550?text=I%20have%20an%20inquiry%3F">
+                        <img src="/graphic/wa.svg">
+                    </a>
+                </div>
+            </div>
+
+            <div class="messenger">
+                <div class="bg-transparent">
+                    <a target="_blank" href="https://m.me/sparksnsizzles.sizzles">
+                        <img src="/graphic/msg.svg">
+                    </a>
+                </div>
+            </div>
+
+            <div class="gmail">
+                <div class="bg-transparent">
+                    <a target="_blank" href="https://mail.google.com/mail/?view=cm&fs=1&to=sparknsizzles@gmail.com">
+                        <img src="/graphic/gmail.svg">
+                    </a>
+                </div>
+            </div>
+
+            <div class="snapchat">
+                <div class="bg-transparent">
+                    <a target="_blank" href="https://www.snapchat.com/add/aar.1729">
+                        <img src="/graphic/snap.svg">
+                    </a>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</body>
+</html>
+
+<!--https://www.instagram.com/sparksnsizzles__/
+
+https://mail.google.com/mail/?view=cm&fs=1&to=sparknsizzles@gmail.com
+
+https://www.facebook.com/sparksnsizzles.sizzles
+
+<a href="tel:123-456-7890">123-456-7890</a>
+
+ <a href="https://m.me/XYZ">
+    Message us on Facebook
+ </a>
